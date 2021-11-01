@@ -1,0 +1,10 @@
+{
+	"Console My Name": {
+		"scope": "javascript,typescript",
+		"prefix": "log-vinoth",
+		"body": [
+			"console.log('Vinoth!');"
+		],
+		"description": "Log output to console"
+	}
+}

@@ -1,0 +1,52 @@
+.activity-indicator-container {
+    border-radius: 50%;
+    /* border: 1px 1px 1px 0 solid rgb(12, 177, 214); */
+    width: 30px;
+    height: 30px;
+    margin: auto auto;
+    border-top: 1px solid #fff;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+    animation: rotateAnim 1s infinite;
+}
+
+@keyframes rotateAnim {
+    0% {
+        transform: rotateZ(0deg);
+        width: 30px;
+        height: 30px;
+    }
+    25% {
+        transform: rotateZ(90deg);
+        height: 25px;
+        width: 25px;
+    }
+    50% {
+        transform: rotateZ(180deg);
+    }
+    75% {
+        transform: rotateZ(270deg);
+        height: 25px;
+        width: 25px;
+    }
+    100% {
+        transform: rotateZ(360deg);
+        width: 30px;
+        height: 30px;
+    }
+}
+
+._2x {
+    width: 100px;
+    height: 100px;
+}
+
+._3x {
+    width: 150px;
+    height: 150px;
+}
+
+._4x {
+    width: 200px;
+    height: 200px;
+}

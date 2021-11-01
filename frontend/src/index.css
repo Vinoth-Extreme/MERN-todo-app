@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #000;
+}
+
+.btn-primary {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    width: 250px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: 5px 5px 15px 1px rgba(0, 0, 0, 0.3) inset,
+    -5px -5px 10px 1px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    margin: 20px;   
+}

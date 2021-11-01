@@ -1,0 +1,7 @@
+{
+    "hello": {
+        "scope": "javascript",
+        "prefix": "hello",
+        "body": "$BLOCK_COMMENT_START Hi Vinoth! $BLOCK_COMMENT_END"
+    }
+}
